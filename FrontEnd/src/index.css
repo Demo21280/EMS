@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+body {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tasklist::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+  background-color: #ffffff;
+}
+
+#tasklist::-webkit-scrollbar-track {
+  background-color: #c2e7fd;
+  border-radius: 10px;
+}
+
+#tasklist::-webkit-scrollbar-thumb {
+  background-color: #62e5ff;
+  border-radius: 10px;
+}
+
+#tasklist::-webkit-scrollbar-thumb:hover {
+  background-color: #12c4ff;
+}
